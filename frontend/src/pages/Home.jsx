@@ -30,12 +30,13 @@ const Home = () => {
     <div className='p-4'>
       <div className='flex justify-center items-center gap-x-4'>
         <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('table')}>Table</button>
+        <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => alert('Hello')}>About this page</button>
         <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('card')}>Card</button>
       </div>
       <div className='flex justify-between items-center'>
         <h1 className='text-3xl my-8'>Items List</h1>
         <Link to='items/create'>
-          <MdOutlineAddBox className='text-sky-800 text-4xl' />
+          <MdOutlineAddBox className='text-sky-800 text-4xl hover:text-black' />
         </Link>
       </div>
       {loading ? <Spinner /> : showType === 'table' ? ( <ItemTable items={items} /> ) : ( <ItemCards items={items} /> )}
