@@ -7,6 +7,7 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import ItemTable from '../components/home/ItemTable';
 import ItemCards from '../components/home/ItemCards';
+import AboutPage from '../components/home/AboutPage';
 
 const Home = () => {
   const [items, setItems] = useState([]);
@@ -30,7 +31,9 @@ const Home = () => {
     <div className='p-4'>
       <div className='flex justify-center items-center gap-x-4'>
         <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('table')}>Table</button>
-        <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => alert('Hello')}>About this page</button>
+        <Link to={'/about'}>
+            <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg'>About this page</button>
+        </Link>
         <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('card')}>Card</button>
       </div>
       <div className='flex justify-between items-center'>

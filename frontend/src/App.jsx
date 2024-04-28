@@ -5,6 +5,7 @@ import CreateItem from './pages/CreateItem';
 import ShowItem from './pages/ShowItems';
 import EditItem from './pages/EditItem';
 import DeleteItem from './pages/DeleteItem';
+import AboutPage from './components/home/AboutPage';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Route path='items/details/:id' element={<ShowItem />} />
       <Route path='/items/edit/:id' element={<EditItem />} />
       <Route path='/items/delete/:id' element={<DeleteItem />} />
+      <Route path='/about' element={<AboutPage />} />
     </Routes>
   )
 }
