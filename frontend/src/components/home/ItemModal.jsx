@@ -18,8 +18,8 @@ const ItemModal = ({ singleItem, onClose }) => {
                 <BiUserCircle className='text-red-300 text-2xl'/>
                 <h2 className='my-1'>{singleItem.brand}</h2>
             </div>
-            <p className='mt-4'>Something</p>
-            <p className='my-2'>Lorem ipsum.</p>
+            <p className='mt-4'>Description:</p>
+            <p className='my-2'>Sample description</p>
         </div>
     </div>
   )
