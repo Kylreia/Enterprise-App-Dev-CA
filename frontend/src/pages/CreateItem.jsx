@@ -42,35 +42,35 @@ const CreateItem = () => {
           <h1 className='block antialiased font-sans font-semibold relative mb-10 mt-5 text-center text-4xl leading-tight tracking-normal text-black'>Add Item</h1>
       </div>
       {loading ? <Spinner /> : ''}
-      <div className='flex flex-col border-2 border-sky-400 rounded-xl w-[600px] p-4 mx-auto'>
+      <div className='flex flex-col border-2 border-slate-400 bg-slate-100 rounded-xl w-[600px] p-4 mx-auto'>
         <div className='my-4'>
-          <label className='text-xl mr-4 text-gray-500'>Name:</label>
+          <label className='text-xl mr-4 text-gray-600'>Name:</label>
           <input
             type='text'
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className='border-2 border-gray-500 px-4 py-2 w-full'
+            className='border-2 border-slate-400 px-4 py-2 w-full'
           />
         </div>
         <div className='my-4'>
-          <label className='text-xl mr-4 text-gray-500'>Brand:</label>
+          <label className='text-xl mr-4 text-gray-600'>Brand:</label>
           <input
             type='text'
             value={brand}
             onChange={(e) => setBrand(e.target.value)}
-            className='border-2 border-gray-500 px-4 py-2 w-full'
+            className='border-2 border-slate-400 px-4 py-2 w-full'
           />
         </div>
         <div className='my-4'>
-          <label className='text-xl mr-4 text-gray-500'>Price:</label>
+          <label className='text-xl mr-4 text-gray-600'>Price:</label>
           <input
             type='number'
             value={price}
             onChange={(e) => setPrice(e.target.value)}
-            className='border-2 border-gray-500 px-4 py-2 w-full'
+            className='border-2 border-slate-400 px-4 py-2 w-full'
           />
         </div>
-        <button className='p-2 bg-sky-300 m-8' onClick={handleSaveItem}>
+        <button className='p-2 rounded bg-emerald-300 m-8 hover:bg-emerald-500' onClick={handleSaveItem}>
           Submit
         </button>
       </div>

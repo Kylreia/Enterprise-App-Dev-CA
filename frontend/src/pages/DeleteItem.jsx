@@ -33,10 +33,10 @@ const DeleteItem = () => {
           <h1 className='block antialiased font-sans font-semibold relative mb-10 mt-5 text-center text-4xl leading-tight tracking-normal text-black'>Remove Item</h1>
       </div>
       {loading ? <Spinner /> : ''}
-      <div className='flex flex-col items-center border-2 border-sky-400 rounded-xl w-[600px] p-8 mx-auto'>
+      <div className='flex flex-col items-center border-2 border-slate-400 bg-slate-100 rounded-xl w-[600px] p-8 mx-auto'>
         <h3 className='text-2xl'>Are you sure you want to remove this item?</h3>
 
-        <button className='p-4 bg-red-600 text-white m-8 w-full' onClick={handleDeleteItem}>Yes</button>
+        <button className='p-4 rounded bg-red-600 hover:bg-red-700 text-white m-8 w-full' onClick={handleDeleteItem}>Yes</button>
       </div>
     </div>
   )
