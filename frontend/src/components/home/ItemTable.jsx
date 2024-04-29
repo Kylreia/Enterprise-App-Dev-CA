@@ -18,7 +18,7 @@ const ItemTable = ({ items }) => {
 
   return (
     <div>
-      <div className='flex justify-start items-center ml-3'>
+      <div className='flex justify-start items-center ml-4'>
         <input type="text"
           placeholder="Search items..."
           value={searchTerm}
