@@ -21,10 +21,10 @@ const AboutPage = () => {
                 The application runs on a backend & a frontend framework. The objects of the application are stored in a JSON format in our
                 choice of database (MongoDB). This database is then connected to the server created & managed by NodeJS.
                 Requests that are passed & received are managed in the backend. A frontend framework (React) is then used to create a web
-                application with & interfaces created using CSS technologies for the user to test the implemented functionalies.
-                AJAX is applied to these functionalities in order to allow the application to send & retrieve data from the server asynchronously.
-                Last but not the least, Express is used to make sure that routine is set up correctly & that data are sent & received by the
-                correct components of the application.
+                application with interfaces created using CSS technologies for the user to test the implemented functionalities.
+                AJAX is applied to these functionalities in order to allow the application to send & retrieve data from the server asynchronously
+                without interfering with the display & behaviour of the current page. Last but not the least, Express is used to make sure that
+                routes & middleware are set up correctly & that data is sent & received by the correct components of the application.
               </div>
               <hr className="my-6 border-gray-300"></hr>
               <h5 className='block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-black'>Technologies involved in the application</h5>
