@@ -30,11 +30,11 @@ const Home = () => {
   return (
     <div className='p-4'>
       <div className='flex justify-center items-center gap-x-4'>
-        <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('table')}>Table</button>
+        <button className='bg-amber-100 hover:bg-amber-200 px-4 py-1 rounded-lg' onClick={() => setType('table')}>Table</button>
         <Link to={'/about'}>
-            <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg'>About this page</button>
+            <button className='bg-amber-100 hover:bg-amber-200 px-4 py-1 rounded-lg'>About this page</button>
         </Link>
-        <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('card')}>Card</button>
+        <button className='bg-amber-100 hover:bg-amber-200 px-4 py-1 rounded-lg' onClick={() => setType('card')}>Card</button>
       </div>
       <div className='grid h-16 place-items-center'>
         <h1 className='block antialiased font-sans font-semibold relative mb-2 mt-5 text-center text-4xl leading-tight tracking-normal text-black'>Items List</h1>

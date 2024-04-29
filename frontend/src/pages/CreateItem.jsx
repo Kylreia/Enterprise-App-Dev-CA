@@ -70,7 +70,7 @@ const CreateItem = () => {
             className='border-2 border-slate-400 px-4 py-2 w-full'
           />
         </div>
-        <button className='p-2 rounded bg-emerald-300 m-8 hover:bg-emerald-500' onClick={handleSaveItem}>
+        <button className='p-2 text-white rounded bg-green-600 m-8 hover:bg-green-700' onClick={handleSaveItem}>
           Submit
         </button>
       </div>

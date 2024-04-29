@@ -85,7 +85,7 @@ const EditItem = () => {
             className='border-2 border-slate-400 px-4 py-2 w-full'
           />
         </div>
-        <button className='p-2 rounded bg-emerald-300 m-8 hover:bg-emerald-500' onClick={handleEditItem}>
+        <button className='p-2 rounded text-white bg-green-600 m-8 hover:bg-green-700 m-8' onClick={handleEditItem}>
           Submit
         </button>
       </div>
