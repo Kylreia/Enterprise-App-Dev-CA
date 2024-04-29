@@ -26,7 +26,7 @@ const ShowItems = () => {
   return (
     <div className='p-4'>
       <BackButton />
-      <h1 className='text-3xl my-4'>Show Items</h1>
+      <h1 className='text-3xl my-4'>Item Details</h1>
       {loading ? (
         <Spinner />
       ) : (
