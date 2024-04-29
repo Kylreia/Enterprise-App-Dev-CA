@@ -36,8 +36,8 @@ const Home = () => {
         </Link>
         <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('card')}>Card</button>
       </div>
-      <div className='flex justify-between items-center'>
-        <h1 className='text-3xl my-8'>Items List</h1>
+      <div className='grid h-16 place-items-center'>
+        <h1 className='text-3xl my-4'>Items List</h1>
         <Link to='items/create'>
           <MdOutlineAddBox className='text-sky-800 text-4xl hover:text-black' />
         </Link>

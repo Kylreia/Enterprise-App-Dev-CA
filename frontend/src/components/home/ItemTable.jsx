@@ -18,12 +18,14 @@ const ItemTable = ({ items }) => {
 
   return (
     <div>
-      <input type="text"
-        placeholder="Search items..."
-        value={searchTerm}
-        onChange={handleSearch}
-        className="mb-4 p-2 border rounded">
-      </input>
+      <div className='flex justify-start items-center ml-3'>
+        <input type="text"
+          placeholder="Search items..."
+          value={searchTerm}
+          onChange={handleSearch}
+          className="mb-4 p-2 border rounded ">
+        </input>
+      </div>
       <table className='w-full border-separate border-spacing-2'>
             <thead>
               <tr>
