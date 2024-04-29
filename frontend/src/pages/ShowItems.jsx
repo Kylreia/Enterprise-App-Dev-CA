@@ -32,7 +32,7 @@ const ShowItems = () => {
       {loading ? (
         <Spinner />
       ) : (
-        <div className='flex flex-col border-2 border-slate-400 bg-slate-100 rounded-xl w-fit p-4 mx-auto '>
+        <div className='flex flex-col border-2 border-slate-400 bg-slate-100 rounded-xl w-fit p-4 mx-auto'>
           <div className='my-4'>
             <span className='text-xl mr-4 text-gray-600'>ID:</span>
             <span>{item._id}</span>

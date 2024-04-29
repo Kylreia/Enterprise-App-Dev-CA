@@ -7,11 +7,11 @@ Keith Railey Rumbaua (C20463336)
 
 2. Run 'npm run dev' on the backend folder first, repeating this step on the frontend folder afterwards
 
-3. Press the plus icon on the top-right corner of the page, this will open a page containing a form to fill out the fields to add the item
+3. Pressing the plus icon on the top-middle of the page will open a page containing a form to fill out the fields to add an item
 
 4. This icon (1st from left on table view, 2nd from left in card view) on the operations section will show the details of that particular item in a separate page (The first icon on the card view performs the same operation in a pop-up manner)
 
-5. This icon (middle on table view, 3rd from left in card view) on the operations section will open a page containing a form with the current details that the user can edit
+5. This icon (middle on table view, 3rd from left in card view) on the operations section will open a page containing a form with the current details of the item that the user can edit
 
 6. The last icon on the operations section will ask the user whether they want to delete the item from the list or not
 
@@ -21,7 +21,9 @@ Keith Railey Rumbaua (C20463336)
 
 9. Using the search bar will show all the items which matches the user's input in any of its categories
 
-10. Press the button that says 'About this page' to open a page containing more details about the project
+10. A drop-down list can be utilised to sort the item list in a specific order
+
+11. Pressing the button that says 'About this page' will open a page containing more details about the project
 
 
 # Required functions implemented:
@@ -35,6 +37,7 @@ Keith Railey Rumbaua (C20463336)
 # Extra functionalities implemented:
 1. 2 available viewing mode for the items: Table & Cards
 2. Details page (operation) for each item (Card view has a pop-up version)
+3. Sorting function
 
 
 # Technologies used:
