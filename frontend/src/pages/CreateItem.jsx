@@ -38,7 +38,9 @@ const CreateItem = () => {
   return (
     <div className='p-4'>
       <BackButton />
-      <h1 className='text-3xl my-4'>Add Item</h1>
+      <div className='flex items-center justify-center'>
+          <h1 className='block antialiased font-sans font-semibold relative mb-10 mt-5 text-center text-4xl leading-tight tracking-normal text-black'>Add Item</h1>
+      </div>
       {loading ? <Spinner /> : ''}
       <div className='flex flex-col border-2 border-sky-400 rounded-xl w-[600px] p-4 mx-auto'>
         <div className='my-4'>

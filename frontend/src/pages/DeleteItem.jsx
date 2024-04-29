@@ -29,7 +29,9 @@ const DeleteItem = () => {
   return (
     <div className='p-4'>
       <BackButton />
-      <h1 className='text-3xl my-4'>Remove Item</h1>
+      <div className='flex items-center justify-center'>
+          <h1 className='block antialiased font-sans font-semibold relative mb-10 mt-5 text-center text-4xl leading-tight tracking-normal text-black'>Remove Item</h1>
+      </div>
       {loading ? <Spinner /> : ''}
       <div className='flex flex-col items-center border-2 border-sky-400 rounded-xl w-[600px] p-8 mx-auto'>
         <h3 className='text-2xl'>Are you sure you want to remove this item?</h3>
