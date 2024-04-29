@@ -33,7 +33,7 @@ app.use('/items', itemRoute);
 mongoose
     .connect(mongoDBURL)
     .then(() => {
-        console.log('App connected to databse');
+        console.log('App connected to database');
         app.listen(PORT, () => {
             console.log(`App is listening to port: ${PORT}`);
         });
