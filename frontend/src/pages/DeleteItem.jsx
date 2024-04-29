@@ -34,7 +34,7 @@ const DeleteItem = () => {
       </div>
       {loading ? <Spinner /> : ''}
       <div className='flex flex-col items-center border-2 border-slate-400 bg-slate-100 rounded-xl w-[600px] p-8 mx-auto'>
-        <h3 className='text-2xl'>Are you sure you want to remove this item?</h3>
+        <h3 className='text-2xl text-gray-600'>Are you sure you want to remove this item?</h3>
 
         <button className='p-4 rounded bg-red-600 hover:bg-red-700 text-white m-8 w-full' onClick={handleDeleteItem}>Yes</button>
       </div>
