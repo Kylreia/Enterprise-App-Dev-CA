@@ -37,7 +37,7 @@ const Home = () => {
         <button className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick={() => setType('card')}>Card</button>
       </div>
       <div className='grid h-16 place-items-center'>
-        <h1 className='text-3xl my-4'>Items List</h1>
+        <h1 className='block antialiased font-sans font-semibold relative mb-2 mt-5 text-center text-4xl leading-tight tracking-normal text-black'>Items List</h1>
         <Link to='items/create'>
           <MdOutlineAddBox className='text-sky-800 text-4xl hover:text-black' />
         </Link>

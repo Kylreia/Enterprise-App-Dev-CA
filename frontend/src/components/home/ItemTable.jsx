@@ -69,29 +69,29 @@ const ItemTable = ({ items }) => {
       <table className='w-full border-separate border-spacing-2'>
             <thead>
               <tr>
-                <th className='border border-slate-600 rounded-md'>No.</th>
-                <th className='border border-slate-600 rounded-md'>Name</th>
-                <th className='border border-slate-600 rounded-md max-md:hidden'>Brand</th>
-                <th className='border border-slate-600 rounded-md max-md:hidden'>Price (€)</th>
-                <th className='border border-slate-600 rounded-md'>Operations</th>
+                <th className='bg-slate-100 border border-slate-600 rounded-md'>No.</th>
+                <th className='bg-slate-100 border border-slate-600 rounded-md'>Name</th>
+                <th className='bg-slate-100 border border-slate-600 rounded-md max-md:hidden'>Brand</th>
+                <th className='bg-slate-100 border border-slate-600 rounded-md max-md:hidden'>Price (€)</th>
+                <th className='bg-slate-100 border border-slate-600 rounded-md'>Operations</th>
               </tr>
             </thead>
             <tbody>
               {sortedItems.map((item, index) =>(
                 <tr key={item._id} className='h-8'>
-                  <td className='border border-slate-700 rounded-md text-center'>
+                  <td className='bg-slate-100 border border-slate-700 rounded-md text-center'>
                     {index + 1}
                   </td>
-                  <td className='border border-slate-700 rounded-md text-center'>
+                  <td className='bg-slate-100 border border-slate-700 rounded-md text-center'>
                     {item.name}
                   </td>
-                  <td className='border border-slate-700 rounded-md text-center max-md:hidden'>
+                  <td className='bg-slate-100 border border-slate-700 rounded-md text-center max-md:hidden'>
                     {item.brand}
                   </td>
-                  <td className='border border-slate-700 rounded-md text-center max-md:hidden'>
+                  <td className='bg-slate-100 border border-slate-700 rounded-md text-center max-md:hidden'>
                     {"€" + item.price}
                   </td>
-                  <td className='border border-slate-700 rounded-md text-center'>
+                  <td className='bg-slate-100 border border-slate-700 rounded-md text-center'>
                     <div className='flex justify-center gap-x-4'>
                       <Link to={`/items/details/${item._id}`}>
                         <BsInfoCircle className='text-2xl text-green-800 hover:text-black' />
