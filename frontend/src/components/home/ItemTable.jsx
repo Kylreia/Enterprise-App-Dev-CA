@@ -45,7 +45,7 @@ const ItemTable = ({ items }) => {
 
   return (
     <div>
-      <div className='flex flex-row space-x-4'>
+      <div className='flex flex-row space-x-3 ml-4'>
         <div>
           <input type="text"
             placeholder="Search items..."
